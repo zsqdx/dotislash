@@ -33,23 +33,21 @@ The content filter runs entirely on your iPhone. It sends nothing anywhere.
 
 The model writes these searches and addresses itself, from your conversation, so they can include what you typed or attached. Each site receives the request, including your IP address and that it comes from Dotislash, as with any visit. Dotislash refuses private and local network addresses. See the [Wikimedia Foundation privacy policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Every search and page the model uses is shown in the reply. Those sites are independent of us, and their own policies apply.
 
-**Python (optional, off by default).** The Python tool runs code inside a sandbox on your iPhone. The sandbox has no internet access and no access to your files.
-
 Dotislash makes no other connections. We do not receive any of these requests or their results.
 
 ## If you contact us
 
-If you email us, for example to ask for help or to report a response with Report, we receive what you send: your email address and your message. A report contains the response, and can also contain the model's reasoning and tool results, such as web text, Python code and its output. You see it all before you send it. We use it only to reply to you and to improve Dotislash's safety. We don't share it, and we delete it once it's no longer needed, at the latest 12 months after the matter is closed.
+If you email us, for example to ask for help or to report a response with Report, we receive what you send: your email address and your message. A report contains the response, and can also contain the model's reasoning and tool results, such as text from a web page. You see it all before you send it. We use it only to reply to you and to improve Dotislash's safety. We don't share it, and we delete it once it's no longer needed, at the latest 12 months after the matter is closed.
 
 ## Your choices
 
-- **Turn off a tool:** switch off Wikipedia and web pages or Python in Settings → Tools at any time. A model can then no longer use it. Requests already made can't be recalled, and the sites' own policies apply to them.
+- **Turn off the web tools:** switch off Wikipedia and web pages in Settings → Tools at any time. A model can then no longer use them. Requests already made can't be recalled, and the sites' own policies apply to them.
 - **Delete data on your iPhone:** delete a chat from the list of chats, delete a model from the Models tab, or delete the app to remove everything it stored.
 - **Delete what you sent us:** email zsqdx2015@gmail.com and ask us to delete your messages. We'll confirm when it's done.
 
 ## Children
 
-Dotislash is not directed at children. Its age rating is shown on its App Store page.
+Dotislash is rated 18+ on the App Store and is not directed at children or anyone else under 18.
 
 ## Changes
 
