@@ -4,7 +4,7 @@ title: Dotislash Privacy Policy
 
 # Dotislash Privacy Policy
 
-*Last updated: November 4, 2026*
+*Last updated: November 5, 2026*
 
 Dotislash, by Suqin Zhang, runs AI language models on your iPhone. This policy explains what that means for your data.
 
@@ -31,7 +31,7 @@ The content filter runs entirely on your iPhone. It sends nothing anywhere.
 - to search Wikipedia, which sends the search terms to the Wikimedia Foundation;
 - to open web pages, which are fetched directly from their websites.
 
-The model writes these searches and addresses itself, from your conversation, so they can include what you typed or attached. Each site receives the request, including your IP address and that it comes from Dotislash, as with any visit. Dotislash refuses private and local network addresses. See the [Wikimedia Foundation privacy policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Every search and page the model uses is shown in the reply. Those sites are independent of us, and their own policies apply.
+The model writes these searches and addresses itself, from your conversation, so they can include what you typed or attached. Each site receives the request, including your IP address and that it comes from Dotislash, as with any visit. Dotislash refuses private and local network addresses. See the [Wikimedia Foundation privacy policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy). Every search and page the model uses is shown in the reply, unless the content filter stops that reply. The filter then replaces the whole reply, so you no longer see its searches and pages, but those requests have already been made. Those sites are independent of us, and their own policies apply.
 
 Dotislash makes no other connections. We do not receive any of these requests or their results.
 
