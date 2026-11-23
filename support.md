@@ -54,6 +54,23 @@ description: Help with Dotislash, the private AI assistant for iPhone.
 <details><summary>Why does it ask for my location?</summary>
 <p>For questions like "coffee near me", "how long to the airport" or "will it rain today". It is used only for questions that need it, and you can switch it off in <strong>Settings → Use my location</strong>.</p></details>
 
+<details><summary>Is the first aid medical advice?</summary>
+<p>No. The first-aid steps in the Emergency page and in replies are general first-aid information. They are not medical advice, a diagnosis or a substitute for first-aid training, and the assistant can make mistakes. In an emergency, call your local emergency number first; the call button is at the top of the Emergency page.</p></details>
+
+## Plans and purchases
+
+<details><summary>What is free, and what does Pro add?</summary>
+<p>Free: the Lite model without limits, chat, web search, reading files and photos, first aid, and the app lock. Free use also includes 20 Standard replies and 5 Pro replies a day, 3 slide decks, documents or games a week, Dig deeper once a day, and one scheduled task. <strong>Dotislash Pro</strong> removes these limits. <strong>Dotislash Max</strong> adds the 180B Max model, on iPhones with 12 GB of memory.</p></details>
+
+<details><summary>How much does it cost?</summary>
+<p>Pro: $59.99 a year with a 14-day free trial, $7.99 a week, or $149.99 once. Max: $99.99 a year with a 14-day free trial. Prices in other countries are set by the App Store and shown in the app before you buy.</p></details>
+
+<details><summary>How do I cancel, or get a refund?</summary>
+<p>Open <strong>Settings → Plan → Manage subscription</strong> in the app, or Settings → your name → Subscriptions on your iPhone. Cancel at least a day before the trial or the period ends and you won't be charged again. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></details>
+
+<details><summary>I bought Pro, but the app still shows Free.</summary>
+<p>Open <strong>Settings → Plan → Restore purchases</strong>, signed in with the Apple Account you bought with. A purchase also carries over to a new iPhone this way. No account with us is needed.</p></details>
+
 ## Problems
 
 <details><summary>The app closed while a model was loading or replying.</summary>

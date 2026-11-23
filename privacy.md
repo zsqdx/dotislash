@@ -6,7 +6,7 @@ description: What Dotislash does with your data: almost nothing, because the AI 
 
 # Privacy Policy
 
-*Last updated: November 18, 2026*
+*Last updated: November 22, 2026*
 
 Dotislash, by Suqin Zhang, is an AI assistant that runs on your iPhone. This page says what that means for your data.
 
@@ -35,6 +35,7 @@ The diagnostic log records which model was loaded, how fast it ran and which fea
 | Ask about places near you or how to get somewhere, with location on | Your position goes to Apple Maps to find places and routes, and to the weather services for a local forecast. Your town's name may be added to a web search. |
 | Ask for a reminder or a calendar event | Nothing goes online. The app adds it to, or reads it from, Reminders or Calendar on your iPhone, with your permission. |
 | Tap Report under a response | An email to us, containing that response, which you see and send yourself. |
+| Buy Dotislash Pro or Max, or restore a purchase | Apple handles the payment under its own privacy policy. We receive no name, email or card details from it. The app asks Apple, on your iPhone, which plan is active, and counts the free replies and files left on your iPhone. |
 
 Each of these services receives the request directly from your iPhone, including your IP address, as with any visit to a website, and its own privacy policy applies. We do not receive any of these requests or their results.
 
