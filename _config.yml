@@ -1,3 +1,5 @@
 title: Dotislash
 description: Private AI with an agent that runs on your iPhone. It researches, searches the web, and makes slides and documents.
 url: https://dotislash.app
+plugins:
+  - jekyll-sitemap

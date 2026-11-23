@@ -1,16 +1,35 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% if page.title %}{{ page.title }}{% else %}Dotislash: private AI on your iPhone{% endif %}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:title" content="Dotislash: private AI with an agent on your iPhone">
-<meta property="og:description" content="{{ site.description }}">
-<meta property="og:image" content="https://dotislash.app/assets/icon-512.png">
-<meta property="og:url" content="https://dotislash.app{{ page.url }}">
+{% assign page_title = page.title | default: site.title %}{% assign page_desc = page.description | default: site.description %}{% assign page_url = page.url | replace: 'index.html', '' %}
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="https://dotislash.app{{ page_url }}">
+{% if page.hreflang_en %}<link rel="alternate" hreflang="en" href="https://dotislash.app{{ page.hreflang_en }}">
+<link rel="alternate" hreflang="zh-Hans" href="https://dotislash.app{{ page.hreflang_zh }}">
+<link rel="alternate" hreflang="x-default" href="https://dotislash.app{{ page.hreflang_en }}">
+{% endif %}<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dotislash">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:image" content="https://dotislash.app/assets/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dotislash.app{{ page_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_desc }}">
+<meta name="twitter:image" content="https://dotislash.app/assets/share.png">
 <meta name="theme-color" content="#2a1670">
-<link rel="icon" type="image/png" href="/assets/favicon.png">
+{% if page.home %}<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"WebSite","@id":"https://dotislash.app/#website","url":"https://dotislash.app/","name":"Dotislash","alternateName":["Dotislash: Private AI Agent","Dotislash AI"],"inLanguage":"en"},
+ {"@type":"MobileApplication","@id":"https://dotislash.app/#app","name":"Dotislash: Private AI Agent","alternateName":"Dotislash","url":"https://dotislash.app/","image":"https://dotislash.app/assets/icon-512.png","screenshot":["https://dotislash.app/assets/shots/contract.jpg","https://dotislash.app/assets/shots/research.jpg","https://dotislash.app/assets/shots/slides.jpg"],"operatingSystem":"iOS 17 or later","applicationCategory":"ProductivityApplication","description":"An AI agent that runs entirely on your iPhone. It reads contracts and files, searches the web, makes slides and Word documents, and works offline. No account, nothing uploaded.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Runs on the iPhone, no account and no upload","Works offline, in Airplane Mode","Reads PDF, Word, Excel, PowerPoint and EPUB files and photos","AI agent that searches the web and shows every step","Makes PowerPoint decks and Word documents","Scheduled tasks","Face ID lock and one-tap erase","First-aid steps with no network"]}
+]}
+</script>
+{% endif %}<link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/icon-180.png">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
@@ -34,6 +53,10 @@
       <a href="/support.html">Support</a>
       <a href="/privacy.html">Privacy policy</a>
       <a href="/models/">Models</a>
+      <a href="/offline-ai/">Offline AI</a>
+      <a href="/private-ai/">Private AI</a>
+      <a href="/ai-agent/">AI agent</a>
+      <a href="/zh/" hreflang="zh-Hans" lang="zh-Hans">中文</a>
       <a href="mailto:sqz@dotislash.app">sqz@dotislash.app</a>
     </nav>
     <p>© 2026 Suqin Zhang. iPhone is a trademark of Apple Inc.</p>

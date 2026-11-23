@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dotislash Privacy Policy
+title: "Dotislash Privacy Policy: An AI That Runs on Your iPhone"
 description: What Dotislash does with your data: almost nothing, because the AI runs on your iPhone.
 ---
 

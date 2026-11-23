@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Dotislash Support
-description: Help with Dotislash, the private AI assistant for iPhone.
+title: "Dotislash Support: Help for the Private AI App for iPhone"
+description: "How to start with Dotislash, the private AI agent for iPhone: models, web search, slides and documents, plans, purchases, first aid and troubleshooting."
 ---
 
 # Support

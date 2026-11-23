@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Dotislash Models
+title: "Dotislash Models: AI Models That Run on Your iPhone"
+description: "The AI models Dotislash runs on the iPhone, from a small one for older iPhones to a 35B model on 8 GB iPhones and a 180B model on 12 GB iPhones."
 permalink: /models/
 ---
 
